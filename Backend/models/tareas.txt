@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "nombre": "Practica",
+    "descripcion": "Programación Móvil, Fraccionamiento",
+    "estado": "Pendiente"
+  },
+  {
+    "id": 2,
+    "nombre": "Embebidos",
+    "descripcion": "Lampara de Embebidos",
+    "estado": "En Proceso"
+  }
+]

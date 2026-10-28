@@ -1,0 +1,50 @@
+/* Le damos un color de fondo a toda la página y cambiamos el tipo de letra */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    padding: 20px;
+}
+
+/* Creamos una tarjeta blanca en el centro para meter todo nuestro formulario */
+.contenedor {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Hacemos que las cajas de texto y el botón ocupen todo el ancho disponible */
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Evita que los elementos se salgan del borde */
+}
+
+/* Le damos un color verde llamativo al botón de guardar */
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Diseñamos cada actividad guardada como una pequeña tarjetita gris */
+.tarjeta-actividad {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Le quitamos el espacio sobrante arriba a los títulos de las tarjetas */
+.tarjeta-actividad h3 {
+    margin-top: 0;
+    color: #333;
+}
